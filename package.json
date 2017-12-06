@@ -1,0 +1,54 @@
+{
+  "_from": "mc-forum-plugin-integration",
+  "_id": "mc-forum-plugin-integration@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-ihTOWbdAA6Sxuf5CrnST0gJVRnQPpYB6SP9W2fLJ2jh8x61bRCnUlTIh1/SED2Ze9GGxaketx2VFiHgaCwBgDA==",
+  "_location": "/mc-forum-plugin-integration",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "mc-forum-plugin-integration",
+    "name": "mc-forum-plugin-integration",
+    "escapedName": "mc-forum-plugin-integration",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/mc-forum-plugin-integration/-/mc-forum-plugin-integration-1.0.0.tgz",
+  "_shasum": "12652db3f854592cd8691517977308c205816341",
+  "_spec": "mc-forum-plugin-integration",
+  "_where": "C:\\forum.musicoin.org\\forum",
+  "author": {
+    "name": "hayrullah cansu",
+    "email": "hayrullah.cansu@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/hayrullahcansu/mc-forum-plugin-integration/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Allows musicoin.org users can be registered to forum without filling the register form.",
+  "homepage": "https://github.com/hayrullahcansu/mc-forum-plugin-integration#readme",
+  "keywords": [
+    "musicoin",
+    "forum",
+    "registery",
+    "integration"
+  ],
+  "license": "MIT",
+  "main": "library.js",
+  "name": "mc-forum-plugin-integration",
+  "nbbpm": {
+    "compatibility": "^1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayrullahcansu/mc-forum-plugin-integration.git"
+  },
+  "version": "1.0.0"
+}

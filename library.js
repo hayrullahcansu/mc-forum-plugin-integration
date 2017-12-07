@@ -14,19 +14,9 @@ plugin.init = function (params, callback) {
 		middleware.registrationComplete,
 		middleware.redirectToAccountIfLoggedIn
 	]
-//	router.get('/AuthFromBaseSite',middlewares,middleware.buildHeader, controllers.AuthFromBaseSite);
-//	router.get('api/AuthFromBaseSite',middlewares,controllers.AuthFromBaseSite);
+	app.get('/check_session',middlewares,controllers.CheckSession);
+	router.post('api/AuthFromBaseSite',middlewares,controllers.AuthFromBaseSite);
 	callback();
-};
-
-plugin.addAdminNavigation = function (header, callback) {
-	header.plugins.push({
-		route: '/plugins/quickstart',
-		icon: 'fa-tint',
-		name: 'Quickstart'
-	});
-
-	callback(null, header);
 };
 
 module.exports = plugin;

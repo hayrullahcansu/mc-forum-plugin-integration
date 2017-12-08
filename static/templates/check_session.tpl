@@ -68,6 +68,29 @@
         <h1>Loading...</h1>
     </div>
     <script>
+        $(function(){
+            $.ajax({
+                url: "/api/AuthFromBaseSite",
+                type: "POST",
+                dataType: "json",
+                data: {
+                },
+                contentType: "application/json",
+                cache: false,
+                timeout: 15000,
+                complete: function() {
+                  console.log('process complete');
+                },
+                success: function(data) {
+                    window.location.href = data.redirectUrl;
+               },
+                error: function() {
+                  console.log('error');                    
+                  window.location.href = '/';
+                },
+              });
+        });
+
         Loadr = new(function Loadr(id) {
             // # Defines
             const max_size = 24;

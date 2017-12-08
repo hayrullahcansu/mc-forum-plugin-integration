@@ -20,7 +20,7 @@
 		"static/lib/main.js"
 	],
 	"acpScripts": [
-		"static/lib/integration.js"
+		"static/lib/check_session.js"
 	],
 	"templates": "static/templates"
 }

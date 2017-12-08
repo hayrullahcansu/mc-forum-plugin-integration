@@ -44,8 +44,8 @@
             text-align: center;
             width: 100%;
             top: 0px;
-            line-height: 500px;
-            font-size: 49px;
+            line-height: 420px;
+            font-size: 43px;
             color: rgba(0, 0, 0, 0.24);
             font-weight: 100;
         }

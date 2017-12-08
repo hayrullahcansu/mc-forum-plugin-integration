@@ -24,6 +24,7 @@
             font-family: 'Ubuntu', sans-serif;
             background-position: center center;
             background-size: cover;
+            background-color: #FFDB58;
             color: #121212;
         }
 
@@ -32,8 +33,8 @@
             top: 50%;
             margin: -240px;
             left: 50%;
-            width: 700px;
-            height: 700px;
+            width: 550px;
+            height: 550px;
         }
 
         .loader h1 {
@@ -43,8 +44,8 @@
             text-align: center;
             width: 100%;
             top: 0px;
-            line-height: 420px;
-            font-size: 24px;
+            line-height: 500px;
+            font-size: 49px;
             color: rgba(0, 0, 0, 0.24);
             font-weight: 100;
         }
@@ -63,7 +64,7 @@
     </div>
 
     <div class="loader">
-        <canvas width="700px" height="700px" id="loader"></canvas>
+        <canvas width="550px" height="550px" id="loader"></canvas>
         <h1>Loading...</h1>
     </div>
     <script>

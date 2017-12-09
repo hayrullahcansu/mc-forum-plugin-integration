@@ -15,6 +15,8 @@ plugin.init = function (params, callback) {
 		middleware.redirectToAccountIfLoggedIn
 	]
 	router.get('/check_session',middlewares,controllers.CheckSession);
+
+	//will add hostMiddleware.applyCSRF,
 	router.post('/api/AuthFromBaseSite',middlewares,controllers.AuthFromBaseSite);
 	callback();
 };

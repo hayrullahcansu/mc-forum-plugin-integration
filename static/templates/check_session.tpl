@@ -73,6 +73,10 @@
                 url: "/api/AuthFromBaseSite",
                 type: "POST",
                 dataType: "json",
+                xhrFields: {
+                    withCredentials: true
+                },
+                crossDomain: true,
                 data: {
                 },
                 contentType: "application/json",

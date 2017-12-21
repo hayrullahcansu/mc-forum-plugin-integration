@@ -86,11 +86,12 @@
                   console.log('process complete');
                 },
                 success: function(data) {
-                    window.location.href = data.redirectUrl;
+                    //window.location.href = data.redirectUrl;
+                    console.log(data);
                },
-                error: function() {
-                  console.log('error');                    
-                  window.location.href = '/';
+                error: function(err) {
+                  console.log('error'+err);                    
+                 // window.location.href = '/';
                 },
               });
         });

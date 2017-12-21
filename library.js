@@ -18,6 +18,7 @@ plugin.init = function (params, callback) {
 
 	//will add hostMiddleware.applyCSRF,
 	router.post('/api/AuthFromBaseSite',middlewares,controllers.AuthFromBaseSite);
+	router.get('/api/AuthFromBaseSite',middlewares,controllers.AuthFromBaseSite);	
 	router.get('/setUserAccessKey',controllers.setUserAccessKey);
 	router.get('/getUserAccessKey',controllers.getUserAccessKey);
 	callback();

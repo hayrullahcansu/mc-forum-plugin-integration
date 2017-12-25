@@ -4,10 +4,7 @@
 	"library": "./library.js",
 	"hooks": [
 		{
-			"hook": "static:app.load", "method": "init"
-		},
-		{
-			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+			"hook": "action:middleware.authenticate", "method": "authenticate"
 		}
 	],
 	"staticDirs": {
